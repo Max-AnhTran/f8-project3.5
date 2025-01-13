@@ -120,13 +120,14 @@ button {
 /* TOP-HEADER */
 
 .top-header {
+    background: #fff;
     position: sticky;
     top: -15px;
     z-index: 9999;
 }
 
 .top-header__content {
-    padding: 28px 0 13px;
+    padding-top: 28px;
 }
 
 .top-header-block {
@@ -188,4 +189,124 @@ button {
         #dddcdc 51.09%,
         rgba(212, 212, 212, 0) 99.68%
     );
+}
+
+/* HERO */
+
+.hero__content {
+    padding: 28px 25px 22px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__info-block {
+    margin-top: 75px;
+    width: 34.57%;
+}
+
+.hero__title {
+    max-width: 368px;
+    /* Heading/H2 50px Extra bold */
+    font-family: "Public Sans";
+    font-size: 5rem;
+    font-weight: 800;
+    line-height: 6rem; /* 120% */
+}
+
+.hero__desc {
+    margin-top: 20px;
+    width: 368px;
+    color: var(--text-color-black-gray, #575d5e);
+
+    /* Paragraph/h2 18px medium */
+    font-family: "Public Sans";
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.8rem; /* 155.556% */
+}
+
+.hero__action {
+    margin-top: 42px;
+    display: flex;
+    align-items: center;
+}
+
+.hero__play {
+    margin-left: 40px;
+}
+
+.hero__watch {
+    margin-left: auto;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 3rem; /* 166.667% */
+}
+
+.hero__images {
+    position: relative;
+    margin: 32px 0 66px;
+    display: flex;
+    gap: 20px;
+}
+
+.hero__img--lower {
+    margin-top: 77px;
+}
+
+.hero__img {
+    width: 202px;
+    height: 466px;
+    border-radius: 999px;
+    object-fit: cover;
+}
+
+.hero__blur {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -999;
+    width: 340px;
+    height: 340px;
+    border-radius: 340px;
+    background: #4dbb9a;
+    filter: blur(137px);
+}
+
+.hero__deco {
+    position: absolute;
+}
+
+.hero__deco--1 {
+    right: 11px;
+    bottom: -37px
+}
+
+.hero__deco--1b {
+    right: 46px;
+    bottom: -73px;
+}
+
+.hero__deco--2 {
+    left: -214.5px;
+    top: -25px;
+}
+
+.hero__deco--2b {
+    top: -32px;
+    left: -172px;
+}
+
+/* ADVERTISE */
+
+.advertise {
+    padding: 42px 0 53px;
+}
+
+.advertise__content {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0 82px;
+    background: #E2EDDF;
+    border-radius: 999px;
 }
