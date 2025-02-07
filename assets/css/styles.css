@@ -279,7 +279,7 @@ button {
 
 .hero__deco--1 {
     right: 11px;
-    bottom: -37px
+    bottom: -37px;
 }
 
 .hero__deco--1b {
@@ -307,6 +307,121 @@ button {
     display: flex;
     justify-content: center;
     padding: 80px 0 82px;
-    background: #E2EDDF;
+    background: #e2eddf;
     border-radius: 999px;
+}
+
+/* SERVICES */
+
+.services__content {
+    padding: 53px 0 78px;
+}
+
+.services__title {
+    font-weight: 500;
+    line-height: 2.6rem; /* 162.5% */
+}
+
+.services__title::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: -9px;
+    margin-right: 21px;
+    width: 25px;
+    height: 1px;
+    background: var(--primary-font-color);
+}
+
+.services__desc {
+    max-width: 523px;
+    font-size: 4.2rem;
+    font-weight: 600;
+    line-height: 5.2rem; /* 123.81% */
+}
+
+.services__desc::after {
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: -8px;
+    margin-left: 21px;
+    width: 66px;
+    height: 2px;
+    background: var(--primary-font-color);
+}
+
+.services-row {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-btns {
+    position: relative;
+    top: 40px;
+    display: flex;
+    gap: 17px;
+}
+
+.services-btn {
+    color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 54px;
+    height: 54px;
+    border: none;
+    background-color: #e2eddf;
+    border-radius: 50%;
+}
+
+.services-btn:hover {
+    color: #fff;
+    cursor: pointer;
+    background-color: var(--primary-color);
+}
+
+.services-list {
+    margin-top: 76px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-item {
+    display: inline-block;
+    width: min-content;
+    border-radius: 20px;
+}
+
+.services-item:hover {
+    box-shadow: -6px 9px 64px -4px rgba(118, 118, 118, 0.25);
+    .services-item__info {
+        padding: 24px 18px;
+    }
+}
+
+.services-item__img {
+    width: 368px;
+    height: 318px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.services-item__info {
+    padding: 24px 0;
+}
+
+.services-item__title {
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 2.2rem; /* 100% */
+}
+
+.services-item__desc {
+    margin-top: 18px;
+    color: #7D8188;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 2.4rem;
 }
