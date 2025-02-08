@@ -334,7 +334,7 @@ button {
 /* SERVICES */
 
 .services__content {
-    padding: 53px 0 78px;
+    padding: 53px 0 75px;
 }
 
 .services__desc {
@@ -419,6 +419,7 @@ button {
 /* ABOUT */
 
 .about__content {
+    padding: 75px 0 40px;
     display: flex;
     justify-content: space-between;
 }
@@ -525,7 +526,7 @@ button {
     width: 11px;
     height: 11px;
     background-color: var(--primary-color);
-    border: 3px solid #EAEAEA;
+    border: 3px solid #eaeaea;
     border-radius: 50%;
 }
 
@@ -537,10 +538,10 @@ button {
 }
 
 .about__img-block-stat--7 {
-font-family: "Public Sans";
-font-size: 1rem;
-font-weight: 500;
-line-height: 1.4rem; /* 140% */
+    font-family: "Public Sans";
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.4rem; /* 140% */
 }
 
 .about__img-block-stat--avas {
@@ -551,7 +552,7 @@ line-height: 1.4rem; /* 140% */
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    border: 1px solid #FFF;
+    border: 1px solid #fff;
     object-fit: cover;
 }
 
@@ -597,4 +598,79 @@ line-height: 1.4rem; /* 140% */
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 2.4rem; /* 171.429% */
+}
+
+/* PROCESS */
+
+.process__content {
+    padding: 75px 0;
+}
+
+.process__desc {
+    margin-top: 20px;
+    max-width: 43%;
+}
+
+.process-item--1 {
+    margin-top: 81px;
+    position: relative;
+    padding: 57px 30px 54px;
+    border-radius: 33px;
+    background: #e2eddf;
+}
+
+.process-item__row {
+    display: flex;
+    align-items: center;
+}
+
+.process-item--23 {
+    display: flex;
+    align-items: center;
+    padding: 50px 40px 25px 20px;
+    border-bottom: 1px solid #83A17D;
+}
+
+.process-item__num {
+    width: 156px;
+    color: var(--primary-color);
+    font-size: 7.2rem;
+    font-weight: 600;
+    line-height: 5.2rem; /* 72.222% */
+}
+
+.process-item__title {
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 2.2rem; /* 100% */
+}
+
+.process-item__desc {
+    margin-left: auto;
+    max-width: 50.2%;
+    color: #7d8188;
+    font-family: "Public Sans";
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.8rem; /* 155.556% */
+}
+
+.process-item__link {
+    margin-left: 159px;
+    color: #575D5E;
+font-size: 1.8rem;
+font-weight: 400;
+line-height: 1.8rem; /* 100% */
+text-decoration: underline;
+}
+
+.process-item__link:hover {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.process__img {
+    position: absolute;
+    right: 92px;
+    bottom: 0;
 }
